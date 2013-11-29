@@ -13,6 +13,7 @@
             <div class="row-fluid blue-heading" style="margin: 0 0 10px 0; border-bottom: 1px dotted rgb(192, 192, 192);"><h5>Your Details</h5></div>
             <form id="form" action="api.php" method="POST"> 
                 <input type="hidden" name="mapping" value="contact"/>
+                <input type="hidden" name="reason" value="A Contact"/>
                 <div class="row-fluid">
                     <div class="control-group span3">
                         <label class="control-label" for="name">Name <span class="required">*</span></label>

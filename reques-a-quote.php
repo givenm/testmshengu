@@ -10,6 +10,7 @@
             <div class="row-fluid blue-heading" style="margin: 0 0 10px 0; border-bottom: 1px dotted rgb(192, 192, 192);"><h5>Incident Details</h5></div>
             <form class="" id="form" action="api.php" method="POST">
                 <input type="hidden" name="mapping" value="requestaquote"/>
+                <input type="hidden" name="reason" value="A Request-a-Quote"/>
                 <div class="row-fluid">				
                     <div class="control-group span12">					
                         <div class="control-group span4">
