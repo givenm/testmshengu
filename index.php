@@ -6,9 +6,10 @@
          <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
     </head>
     <body>
-        <a href="incident.php">Incident</a> <br>
-        <a href="vendor-registration.php">VendorRegistration</a><br>
-        <a href="responsetorfq.php">Response To RQF</a>
+        <a class="row-fluid" href="incident.php">Incident</a> <br>
+        <a class="row-fluid" href="vendor-registration.php">VendorRegistration</a><br>
+        <a class="row-fluid" href="responsetorfq.php">Response To RQF</a>
+        <a class="row-fluid" href="reques-a-quote.php">Reques-a-Quote</a><br>
         <div class="span7">
             <div class="row-fluid blue-heading" style="margin: 0 0 10px 0; border-bottom: 1px dotted rgb(192, 192, 192);"><h5>Your Details</h5></div>
             <form id="form" action="api.php" method="POST"> 
